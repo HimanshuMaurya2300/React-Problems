@@ -1,5 +1,11 @@
 import './App.css';
-import ColorPicker from './components/ColorPicker';
+import CounterReducer from './components/CounterReducer';
+// import ShoppingCart from './components/ShoppingCart';
+// import CartContextProvider from './context/CartContext';
+// import SwitchTheme from './components/SwitchTheme';
+// import ThemeContextProvider from './context/ThemeContext';
+// import ResponsiveMenu from './components/ResponsiveMenu';
+// import ColorPicker from './components/ColorPicker';
 // import Pagination from './components/Pagination';
 // import SearchItems from './components/SearchItems';
 // import WeatherApi from './components/WeatherApi';
@@ -37,7 +43,15 @@ function App() {
       {/* <WeatherApi /> */}
       {/* <SearchItems items={items} /> */}
       {/* <Pagination items={items} itemsPerPage={2} /> */}
-      <ColorPicker />
+      {/* <ColorPicker /> */}
+      {/* <ResponsiveMenu /> */}
+      {/* <ThemeContextProvider>
+        <SwitchTheme />
+      </ThemeContextProvider> */}
+      {/* <CartContextProvider>
+        <ShoppingCart />
+      </CartContextProvider> */}
+      <CounterReducer />
     </div>
   );
 }
