@@ -1,5 +1,6 @@
 import './App.css';
-import CounterReducer from './components/CounterReducer';
+import TodoReducer from './components/TodoReducer';
+// import CounterReducer from './components/CounterReducer';
 // import ShoppingCart from './components/ShoppingCart';
 // import CartContextProvider from './context/CartContext';
 // import SwitchTheme from './components/SwitchTheme';
@@ -51,7 +52,8 @@ function App() {
       {/* <CartContextProvider>
         <ShoppingCart />
       </CartContextProvider> */}
-      <CounterReducer />
+      {/* <CounterReducer /> */}
+      <TodoReducer />
     </div>
   );
 }
